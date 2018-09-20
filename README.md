@@ -1,10 +1,15 @@
 # show-the-code
 
 correlationId: "1aaaa73ab2a04e519aa1e887b52638d4"
+
 exceptionMessage: "Attempt to fectch invalid cycle with id `30` from BillingCycles storage."
+
 exceptionType: "ArgumentException"
+
 message: "An error has occurred."
+
 paramName: null
+
 stackTrace: "   at ServiceModelEx.ServiceFabric.ChannelInvokerBase`1.InvokeEnd(Task response, IClientChannel channel)
 ↵   at ServiceModelEx.ServiceFabric.ChannelInvokerBase`1.<>c__DisplayClass10_0`1.<InvokeAsync>b__0(Task`1 result)
 ↵   at Trov.API.Controllers.Sic.AccountStatusController.<GetAccountStatusSummaryAsync>d__5.MoveNext() in C:\agent\_work\13\s\Trov.API\Controllers\Sic\AccountStatusController.cs:line 57
